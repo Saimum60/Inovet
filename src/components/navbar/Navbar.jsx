@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from "../../assets/logo.png"
 import { TbMenu2, TbMenu3 } from "react-icons/tb";
+import BgBan from '../../assets/bgban.png'
 
 const Navbar = () => {
 
@@ -13,8 +14,8 @@ const Navbar = () => {
 
 
   return (
-    <nav className='bg-blue-900'>
-      <div className='max-w-[1320px] mx-auto px-10 py-7 h-[12vh] md:h-[14vh]'>
+    <nav className='bg-transparent absolute w-full top-4 left-0 '>
+      <div className='max-w-[1320px] mx-auto px-10 md:py-8 py-5 h-[12vh] md:h-[14vh] '>
         <div className='flex justify-between items-center '>
           <div>
           <a href="#"><img src={Logo} alt="" /></a>
@@ -23,27 +24,27 @@ const Navbar = () => {
         <div>
           <ul className='md:flex gap-15 text-white hidden'>
             <li>
-              <a href="#">Home</a>
+              <a href="#" className='text-lg font-semibold'>Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#" className='text-lg font-semibold'>About</a>
             </li>
             <li>
-              <a href="#">Service</a>
+              <a href="#" className='text-lg font-semibold'>Service</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#" className='text-lg font-semibold'>Portfolio</a>
             </li>
             <li>
-              <a href="#">Price</a>
+              <a href="#" className='text-lg font-semibold'>Price</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#" className='text-lg font-semibold'>Blog</a>
             </li>
           </ul>
         </div>
         <div className='md:flex items-center hidden '>
-          <button className='text-white border px-9 py-4 rounded-2xl hover:bg-blue-950'>
+          <button className='text-white border text-lg font-semibold px-9 py-4 rounded-2xl hover:bg-red-500 hover:border-red-500'>
             Contact Us
           </button>
 

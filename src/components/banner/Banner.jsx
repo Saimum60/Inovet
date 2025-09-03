@@ -1,11 +1,12 @@
 import React from 'react'
 import Ban from "../../assets/ban.png"
+import BgBan from '../../assets/bgban.png'
 
 
 
 const Banner = () => {
   return (
-    <section className='bg-gradient-to-b from-blue-900 to-blue-950'>
+    <section className='bg-cover pt-[14vh] ' style={{backgroundImage:`url(${BgBan})`}}>
         
         <div className='max-w-[1320px] mx-auto px-10 md:flex-row flex-col py-20'>
                 <div className='flex justify-center gap-5 pb-10'>
