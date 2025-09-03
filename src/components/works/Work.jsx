@@ -30,7 +30,7 @@ let reuse=card.map((item)=>(
                     <a href="#">View All</a>
                     </button>
             </div>
-            <div className='grid grid-cols-3 gap-5 pt-10'>
+            <div className='grid md:grid-cols-3 grid-cols-1 gap-5 pt-10'>
                 {reuse}
                 
 

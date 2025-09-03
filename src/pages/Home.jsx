@@ -5,6 +5,10 @@ import BannerImg from '../components/banner/BannerImg'
 import Feature from '../components/feature/Feature'
 import FeatureLite from '../components/feature/FeatureLite'
 import Work from '../components/works/Work'
+import Pricing from '../components/works/procing/Pricing'
+import Footer from '../components/footer/Footer'
+import Analytics from '../components/analytics/Analytics'
+import Process from '../components/process/Process'
 
 const Home = () => {
   return (
@@ -14,7 +18,10 @@ const Home = () => {
     <BannerImg/>
     <Feature/>
     <FeatureLite/>
+    <Process/>
     <Work/>
+    <Analytics/>
+    <Footer/>
     </>
   )
 }
