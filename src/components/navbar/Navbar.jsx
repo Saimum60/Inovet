@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Logo from "../../assets/logo.png"
 import { TbMenu2, TbMenu3 } from "react-icons/tb";
-import BgBan from '../../assets/bgban.png'
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -22,29 +22,29 @@ const Navbar = () => {
 
         </div>
         <div>
-          <ul className='md:flex gap-15 text-white hidden'>
+          <ul className='lg:flex gap-10 text-white  hidden'>
             <li>
-              <a href="#" className='text-lg font-semibold'>Home</a>
+              <a href="#" className='flex items-center text-lg font-semibold'>Home <span className='text-3xl'><MdKeyboardArrowDown /></span></a>
             </li>
             <li>
-              <a href="#" className='text-lg font-semibold'>About</a>
+              <a href="#" className='flex items-center text-lg font-semibold'>About <span className='text-3xl'><MdKeyboardArrowDown /></span> </a>
             </li>
             <li>
-              <a href="#" className='text-lg font-semibold'>Service</a>
+              <a href="#" className='flex items-center text-lg font-semibold'>Service <span className='text-3xl'><MdKeyboardArrowDown /></span></a>
             </li>
             <li>
-              <a href="#" className='text-lg font-semibold'>Portfolio</a>
+              <a href="#" className='flex items-center text-lg font-semibold'>Portfolio <span className='text-3xl'><MdKeyboardArrowDown /></span></a>
             </li>
             <li>
-              <a href="#" className='text-lg font-semibold'>Price</a>
+              <a href="#" className='flex items-center text-lg font-semibold'>Price <span className='text-3xl'><MdKeyboardArrowDown /></span></a>
             </li>
             <li>
-              <a href="#" className='text-lg font-semibold'>Blog</a>
+              <a href="#" className='flex items-center text-lg font-semibold'>Blog <span className='text-3xl'><MdKeyboardArrowDown /></span></a>
             </li>
           </ul>
         </div>
-        <div className='md:flex items-center hidden '>
-          <button className='text-white border text-lg font-semibold px-9 py-4 rounded-2xl hover:bg-red-500 hover:border-red-500'>
+        <div className='lg:flex items-center hidden '>
+          <button className='text-white border text-lg font-semibold px-9 py-4 rounded-2xl duration-500 hover:hover:scale-110 '>
             Contact Us
           </button>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
 
        
 
-          <div onClick={toggleMenu} className='text-4xl text-white md:hidden '>
+          <div onClick={toggleMenu} className='text-4xl text-white lg:hidden '>
             
             {show===true ? <TbMenu3 />:<TbMenu2 />}
             
@@ -63,7 +63,7 @@ const Navbar = () => {
          
         </div>
          <div className=''>
-          <ul className={`flex flex-col items-center  text-white   gap-y-10  bg-red-500/15 backdrop-blur-lg rounded-lg p-10  md:hidden absolute  top-30 -left-full  transform -translate-x-1/2 duration-500 ${show == true ? 'left-1/2' : ''}`}>
+          <ul className={`flex flex-col items-center  text-white   gap-y-10  bg-red-500/15 backdrop-blur-lg rounded-lg p-10  lg:hidden absolute  top-30 -left-full  transform -translate-x-1/2 duration-500 ${show == true ? 'left-1/2' : ''}`}>
             <li>
               <a href="#">Home</a>
             </li>

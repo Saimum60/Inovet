@@ -13,8 +13,8 @@ const Process = () => {
                 <h2 className='md:text-5xl text-3xl font-semibold pt-5'>How Can We Help?</h2>
             </div>
             <div>
-                <div className='grid md:grid-cols-4 grid-cols-2 gap-8 text-center '>
-                                   <div className=' bg-[#F8A64C] gap-8 rounded-2xl'>
+                <div className='grid md:grid-cols-4 grid-cols-2 gap-8 text-center  '>
+                                   <div className=' bg-[#F8A64C] gap-8 rounded-2xl relative after:absolute after:w-10 after:h-10 after:bottom-[10px] after:left-[120px] after:rotate-45 after:content-[""] after:bg-[#F8A64C] after:transition-all after:duration-500 after:z-[-1] lg:hover:after:bottom-[-20px] '>
                                     
                 
                                     <div className='pt-5'>
@@ -23,7 +23,7 @@ const Process = () => {
                                         <h5  className='text-xl text-white font-medium pb-10 pt-5 pl-5'>Real time analytics</h5>
                                     </div>
                                 </div>
-                                <div className=' bg-[#F0EDFF]  gap-8 rounded-2xl'>
+                                <div className=' bg-[#F0EDFF]  gap-8 rounded-2xl relative after:absolute after:w-10 after:h-10 after:bottom-[10px] after:left-[120px] after:rotate-45 after:content-[""] after:bg-[#F0EDFF] transition-all after:duration-500 after:z-[-1] lg:hover:after:bottom-[-20px] '>
                 
                                     <div className='pt-5'>
                                         <img src={Utr2} alt=""  className='md:pl-25 pl-15 '/>
@@ -32,7 +32,7 @@ const Process = () => {
                                         
                                     </div>
                                 </div>
-                                <div className=' bg-[#E8FCF2]  gap-8 rounded-2xl '>
+                                <div className=' bg-[#E8FCF2]  gap-8 rounded-2xl relative after:absolute after:w-10 after:h-10 after:bottom-[10px] after:left-[120px] after:rotate-45 after:content-[""] after:bg-[#E8FCF2] transition-all after:duration-500 after:z-[-1] lg:hover:after:bottom-[-20px]  '>
                 
                                     <div className='pt-5 '>
                                         <img src={Utr3} alt=""  className='md:pl-25 pl-15'/>
@@ -41,7 +41,7 @@ const Process = () => {
                                        
                                     </div>
                                 </div>
-                                <div className='bg-[#FEF6EC] pt-27  rounded-2xl '>
+                                <div className='bg-[#FEF6EC] pt-27  rounded-2xl relative after:absolute after:w-10 after:h-10 after:bottom-[10px] after:left-[120px] after:rotate-45 after:content-[""] after:bg-[#FEF6EC] transition-all after:duration-500 after:z-[-1] lg:hover:after:bottom-[-20px] '>
                                         
                                     
                                         <h5 className='text-xl font-medium pl-4'>Reporting & analysis</h5>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section>
         <div className='max-w-[1320px] mx-auto px-10 py-20 pt-40'>
-       <div className='md:flex md:justify-between'>
+       <div className='lg:flex md:justify-between'>
              <div  className=''>
                 <img src={Logo} alt="" className='bg-[#6A55EA] rounded-2xl' />
                 <p className='md:w-[449px] pt-10 pb-10'>Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>

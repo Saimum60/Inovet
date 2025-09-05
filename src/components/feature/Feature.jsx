@@ -10,11 +10,11 @@ const Feature = () => {
         <div className='max-w-[1320px] mx-auto px-10 py-20'>
             <div className='text-center'>
                 <a className='text-2xl text-[#7968EF] ' href="#">Core feature</a>
-                <h4 className='md:text-5xl text-2xl font-bold pt-5 md:pl-80 md:pr-80'>Provide awsome service with our tools</h4>
+                <h4 className='lg:text-5xl md:text-4xl text-2xl font-bold pt-5 mx-auto lg:w-[600px]'>Provide awsome service with our tools</h4>
             </div>
-            <div className='md:grid grid-cols-2  pt-20'>
+            <div className='lg:grid grid-cols-2  pt-20'>
                 <div>
-                    <p className='text-[#29313D] md:w-[620px] md:pl-10 pl-5 pb-15'>With over 25 years of experience, we have crafted thousands of strategic discovery process that enables us to peel back the layers which enable us to understand.</p>
+                    <p className='text-[#29313D] lg:w-[620px] md:pl-10 pl-5 pb-15'>With over 25 years of experience, we have crafted thousands of strategic discovery process that enables us to peel back the layers which enable us to understand.</p>
                     <img src={Group} alt="" className='pb-5 max-w-full'/>
                 </div>
                 <div className='flex flex-wrap gap-8 md:pl-10'>
