@@ -9,6 +9,7 @@ import Pricing from '../components/works/procing/Pricing'
 import Footer from '../components/footer/Footer'
 import Analytics from '../components/analytics/Analytics'
 import Process from '../components/process/Process'
+import Price from '../components/price/Price'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
     <FeatureLite/>
     <Process/>
     <Work/>
+    <Price/>
     <Analytics/>
     <Footer/>
     </>
